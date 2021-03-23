@@ -6,7 +6,10 @@ img.headimage {
 .tall-row{
     height: 300px;
     background-color: lightgray;
+}
 
+.jumbotron {
+    margin: 0px;
 }
 
 .test {
@@ -21,26 +24,44 @@ img.headimage {
 
 }
 
-.fancy-header{
-    font-family:
+h3.new-header{
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+h4.new-header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body {
+    font-family: 'Abel', sans-serif;
 }
 
 h1{
     height: 64px;
+    font-family: 'Anton', sans-serif;
 }
 
 h2{
     height: 48px;
+    font-family: 'Anton', sans-serif;
 }
 
 h3{
     height: 40px;
+    font-family: 'Anton', sans-serif;
 }
 
 h4{
     height: 32px;
+    font-family: 'Anton', sans-serif;
 }
 
 h5{
     height: 28px;
+    font-family: 'Anton', sans-serif;
 }
