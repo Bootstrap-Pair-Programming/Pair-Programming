@@ -1,8 +1,18 @@
-img.headimage{
+img.headimage {
     height: 105px;
     width: 105px;
     position: absolute;
-
+}
 .tall-row{
 
+}
+
+.test {
+    width: 50%;
+    height: 150px;
+    background-color: #EB9D3A;
+    padding: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
