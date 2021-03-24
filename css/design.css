@@ -1,43 +1,53 @@
 img.headimage {
     height: 105px;
     width: 105px;
-    position: absolute;
+    display: flex;
+    justify-content: center;
 }
 .tall-row{
-    height: 300px;
+    margin: 5px;
     background-color: lightgray;
 }
 
-.jumbotron {
-    margin: 0px;
-}
-
 .test {
+    font-family: Anton, sans-serif;
+    font-size: 28px;
+    color: white;
     width: 150px;
     height: 150px;
-    background-color: #EB9D3A;
     padding: 2em;
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 5px solid white;
-
+    border: 10px solid white;
 }
 
-h3.new-header{
+.large-p {
+    font-size: 40px;
+    font-weight: lighter;
+}
+
+.nav-font {
+    font-weight: lighter;
+    font-size: 17px;
+    margin: 3px;
+}
+
+h1.new-header{
     display:flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
 }
 
-h4.new-header{
+h2.new-header{
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 body {
+    background-color: #f0f0f0;
     font-family: 'Abel', sans-serif;
 }
 
@@ -64,4 +74,31 @@ h4{
 h5{
     height: 28px;
     font-family: 'Anton', sans-serif;
+}
+
+p.foot {
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+
+img.ipad {
+    display: flex;
+    justify-content: center;
+    height: 70%;
+    width: 70%;
+    margin:auto;
+    border: 10px solid #e6e6e6;
+    border-radius: 7px;
+}
+
+.btn-circle {
+    font-size: 12px;
+    height: 18px;
+    width: 18px;
+    border-radius: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
