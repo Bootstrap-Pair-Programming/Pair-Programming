@@ -104,6 +104,9 @@ img.ipad {
     justify-content: center;
     align-items: center;
 }
+hr{
+
+}
 
 /* Small Screen Size*/
 
@@ -114,6 +117,7 @@ img.ipad {
     justify-content: center;
     align-items: center;
 }
+
 }
 
 /* Medium Screen Size*/
