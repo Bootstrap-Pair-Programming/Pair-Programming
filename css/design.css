@@ -49,6 +49,8 @@ h2.new-header{
 body {
     background-color: #f0f0f0;
     font-family: 'Abel', sans-serif;
+    margin-top: 10%;
+    margin-bottom: 10%;
 }
 
 h1{
@@ -101,4 +103,11 @@ img.ipad {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.bg-info{
+    height: 10%;
+    width:100%;
+    margin-bottom:20px;
+
 }
