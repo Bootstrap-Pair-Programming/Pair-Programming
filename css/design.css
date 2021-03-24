@@ -106,6 +106,9 @@ img.ipad {
     justify-content: center;
     align-items: center;
 }
+hr{
+
+}
 
 <<<<<<< HEAD
 .bg-info{
@@ -122,7 +125,9 @@ img.ipad {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
 }
+
 }
 
 /* Medium Screen Size*/
