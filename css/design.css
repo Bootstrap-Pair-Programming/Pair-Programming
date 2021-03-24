@@ -51,6 +51,8 @@ body {
     margin-bottom: 10%;
     background-color: #f0f0f0;
     font-family: 'Abel', sans-serif;
+    margin-top: 10%;
+    margin-bottom: 10%;
 }
 
 h1{
@@ -105,6 +107,14 @@ img.ipad {
     align-items: center;
 }
 
+<<<<<<< HEAD
+.bg-info{
+    height: 10%;
+    width:100%;
+    margin-bottom:20px;
+
+}
+=======
 /* Small Screen Size*/
 
 @media screen and (min-width: 576px) {
@@ -126,3 +136,4 @@ img.ipad {
 @media screen and (min-width: 992px) {
 
 }
+>>>>>>> b2bfad4447749e96821f568b8e79dadf1a25d76c
