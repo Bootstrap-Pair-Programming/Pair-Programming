@@ -3,6 +3,8 @@ img.headimage {
     width: 105px;
     display: flex;
     justify-content: center;
+    z-index:1;
+    margin: auto
 }
 .tall-row{
     margin: 5px;
@@ -104,6 +106,14 @@ img.ipad {
     justify-content: center;
     align-items: center;
 }
+.topnav{
+    height: 30%;
+}
+.whitebackground {
+    width: 100%;
+    height: 50px;
+    background-color: white;
+}
 
 /* for screens less than 576 pixels*/
 
@@ -151,6 +161,9 @@ img.ipad {
     width: 250px;
 }
 
+
+
+}
 div.col {
     margin-top: 3px;
 }
@@ -162,7 +175,7 @@ div.col {
      display: none;
  }
 
-}
+
 
 
 
