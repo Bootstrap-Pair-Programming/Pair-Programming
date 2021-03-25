@@ -53,6 +53,8 @@ body {
     margin-bottom: 10%;
     background-color: #f0f0f0;
     font-family: 'Abel', sans-serif;
+    margin-top: 10%;
+    margin-bottom: 10%;
 }
 
 h1{
@@ -106,6 +108,7 @@ img.ipad {
     justify-content: center;
     align-items: center;
 }
+
 .topnav{
     height: 30%;
 }
@@ -128,12 +131,27 @@ img.ipad {
 }
 /* Small Screen Size ~~~~~~~~~~~~~~~~~ For screens over 576px */
 
+hr{
+
+}
+
+
+.bg-info{
+    height: 10%;
+    width:100%;
+    margin-bottom:20px;
+
+}
+
+
 @media screen and (min-width: 576px) {
 .small-h1 {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
 }
+
 
 h1.new-header{
     margin-right: 7px;
@@ -154,6 +172,7 @@ p.foot {
     margin-bottom: 3em;
     display: flex;
     justify-content: center;
+
 }
 
 img.ipad {
@@ -192,3 +211,4 @@ div.col {
 @media screen and (min-width: 992px) {
 
 }
+
